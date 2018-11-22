@@ -1,0 +1,56 @@
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// footer module
+// Footers help users who reach the bottom of a page without finding what they want.
+//
+// Content:
+// - Footer styles
+//   -Basic footer block styling
+//   - Footer `nav` navigation styling
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+@import '_globals.scss';
+@import '_print.scss';
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Footer styles
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+/**
+ * Basic footer block styling.
+ */
+.au-nsw-footer {
+	@include AU-space(padding, 3unit 0);
+	background-color: $AU-color-background;
+	font-family: $AU-font;
+	color: $AU-color-foreground-text;
+
+	&.au-footer--alt {
+		background-color: $AU-color-background-alt;
+	}
+
+	&.au-footer-nsw--dark {
+		background-color: $AU-colordark-background;
+		color: $AU-colordark-foreground-text;
+	}
+
+	&.au-footer--dark.au-footer--alt {
+		background-color: $AU-colordark-background-alt;
+	}
+}
+
+/**
+ * Footer `nav` navigation styling.
+ */
+.au-nsw-footer__navigation {
+	.au-link-list {
+		li {
+			display: inline;
+			@include AU-space(margin, 0 0.8unit);
+		}
+	}
+}
+
+.au-nsw-footer__brand {
+	text-align: right;
+}
