@@ -1,0 +1,47 @@
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// header module
+// Headers provide a consistent start to pages.
+//
+// Content:
+// - Header styles
+// - Brand styling
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+@import '_globals.scss';
+@import '_print.scss';
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Header styles
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+/**
+ * Basic header block styling.
+ */
+ .au-nsw-header {
+	@include AU-space( padding, 3unit 0 );
+	font-family: $AU-font;
+	color: $AU-color-foreground-text;
+	background-color: $AU-color-background;
+	
+	@include AU-media( sm ) {
+		@include AU-space( padding, 3unit 0 );
+	}
+
+	&.au-header--alt {
+		background-color: $AU-color-background-shade;
+	}
+
+	&.au-nsw-header--dark {
+		background-color: $AU-colordark-background;
+	}
+
+	&.au-header--alt.au-header--dark {
+		color: $AU-colordark-foreground-text;
+		background-color:  $AU-colordark-background-alt;
+	}
+}
+
+.au-nsw-header__brand-image {
+	@include AU-space( max-width, $AU-logo-width );
+}
