@@ -170,11 +170,11 @@
         "State of ICT and Digital Government",
         "State Infrastructure Strategy",
         "Future Transport Strategy",
-        "Corporate Plan",
+        "Corporate Plan 2017-2020",
         "NSW Government Cyber Security Strategy",
         "eHealth Strategy for NSW Health 2016-2019",
-        "Road Safety",
-        "Service NSW 2017/2018 Strategy",
+        "Road Safety Strategy 2012-2021",
+        "Service NSW Strategy 2017-2018",
         "Strategic Information Technology Plan 2016-2019",
         "Information Management Strategy 2015-2019"
       ],
@@ -230,25 +230,29 @@
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "https://www.digital.nsw.gov.au/policy/buying-ict/cloud-policy",
+        "year": "2018",
         "tags": [
           "Cloud",
-          "Shared Data"
+          "Shared Data",
+          "ICT"
         ]
       }
     },
     {
       "_id": "elem-1Ae8GFAF",
       "attributes": {
-        "label": "Service NSW 2017/2018 Strategy",
+        "label": "Service NSW Strategy 2017-2018",
         "element type": "Strategy",
         "owner": "Finance, Services and Innovation",
         "year": "2017",
+        "strategy": "Service NSW Strategy 2017-2018",
+        "tags": [
+          "Strategy"
+        ],
         "policy reach": [
           "Department only",
           "Finance, Services and Innovation"
-        ],
-        "tags": [
-          "Strategy"
         ]
       }
     },
@@ -260,15 +264,16 @@
         "element type": "Legislation",
         "policy reach": "Whole of Government",
         "year": "2002",
+        "legislation": "The Health Records and Information Privacy Act (HRIP Act)",
+        "owner": [
+          "Justice",
+          "Information and Privacy Commission"
+        ],
         "tags": [
           "Accountability",
           "Information",
           "Data",
           "Privacy"
-        ],
-        "owner": [
-          "Justice",
-          "Information and Privacy Commission"
         ]
       }
     },
@@ -299,7 +304,7 @@
         "policy reach": "Department only",
         "element type": "Activity",
         "owner": "Finance, Services and Innovation",
-        "strategy": "Service NSW 2017/2018 Strategy",
+        "strategy": "Service NSW Strategy 2017-2018",
         "year": "2017",
         "tags": [
           "Digital Government"
@@ -318,28 +323,30 @@
         "element type": "Policy",
         "owner": "Health",
         "year": "2016",
-        "policy reach": [
-          "Department only",
-          "Health"
-        ],
         "tags": [
           "Data"
+        ],
+        "policy reach": [
+          "Department only",
+          "Industry"
         ]
       }
     },
     {
       "_id": "elem-30642lJT",
       "attributes": {
-        "label": "Road Safety",
-        "strategy": "Road Safety",
+        "label": "Road Safety Strategy 2012-2021",
+        "strategy": "Road Safety Strategy 2012-2021",
         "element type": "Strategy",
         "owner": "Transport for NSW",
-        "tags": [
-          "Strategy"
-        ],
+        "description": "https://roadsafety.transport.nsw.gov.au/downloads/road_safety_strategy.pdf",
+        "year": "2012",
         "policy reach": [
           "Department only",
           "Transport for NSW"
+        ],
+        "tags": [
+          "Strategy"
         ]
       }
     },
@@ -347,15 +354,17 @@
       "_id": "elem-3Agzybiw",
       "attributes": {
         "label": "The Human Services Outcomes Framework",
-        "description": "https://www.finance.nsw.gov.au/sites/default/files/guidelines_for_engagement_with_nsw_human_services_non-government_organisations.pdf",
+        "description": "https://www.finance.nsw.gov.au/human_services",
         "element type": "Policy",
         "policy reach": "Whole of Government",
-        "owner": [
-          "Finance, Services and Innovation"
-        ],
+        "year": "2017",
         "tags": [
           "Outcomes",
-          "Accountability"
+          "Accountability",
+          "Ethics"
+        ],
+        "owner": [
+          "Finance, Services and Innovation"
         ]
       }
     },
@@ -379,17 +388,17 @@
     {
       "_id": "elem-6DEDNXlr",
       "attributes": {
-        "label": "The Code of Ethics and Conduct for NSW government sector employees",
+        "label": "The Code of Ethics and Conduct for NSW Government Sector Employees",
         "description": "https://www.psc.nsw.gov.au/employmentportal/ethics-conduct/behaving-ethically/behaving-ethically-guide/section-2/the-code-of-ethics-and-conduct-for-nsw-government-sector-employees",
         "element type": "Policy",
         "policy reach": "Whole of Government",
-        "owner": [
-          "Public Service Commission",
-          "Premier and Cabinet"
-        ],
         "tags": [
           "Ethics",
           "Accountability"
+        ],
+        "owner": [
+          "Public Service Commission",
+          "Premier and Cabinet"
         ]
       }
     },
@@ -401,12 +410,13 @@
         "description": "https://www.legislation.nsw.gov.au/acts/2013-40.pdf",
         "policy reach": "Whole of Government",
         "year": "2013",
+        "legislation": "Government Sector Employment Act 2013",
+        "tags": [
+          "Accountability"
+        ],
         "owner": [
           "Public Service Commission",
           "Premier and Cabinet"
-        ],
-        "tags": [
-          "Accountability"
         ]
       }
     },
@@ -417,6 +427,8 @@
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/NSW%20Government%20Information%20Classification%20Labelling%20and%20Handling%20Guidelines%20V.2.2_0.pdf",
+        "year": "2015",
         "tags": [
           "Data",
           "Open Data",
@@ -427,10 +439,12 @@
     {
       "_id": "elem-7G1bO6L2",
       "attributes": {
-        "label": "Legislation as Code",
+        "label": "Legislation as Code Policy",
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "In development",
+        "year": "2019",
         "tags": [
           "Digital Government"
         ]
@@ -462,16 +476,18 @@
     {
       "_id": "elem-8vF7xRMD",
       "attributes": {
-        "label": "Open Data (TfNSW)",
+        "label": "Open Data Policy (TfNSW)",
         "element type": "Policy",
         "owner": "Transport for NSW",
-        "tags": [
-          "Data",
-          "Open Data"
-        ],
+        "description": "https://www.transport.nsw.gov.au/system/files/media/documents/2017/open-data-policy.pdf",
+        "year": "2016",
         "policy reach": [
           "Department only",
           "Transport for NSW"
+        ],
+        "tags": [
+          "Data",
+          "Open Data"
         ]
       }
     },
@@ -483,14 +499,15 @@
         "element type": "Legislation",
         "policy reach": "Whole of Government",
         "year": "2015",
-        "owner": [
-          "Finance, Services and Innovation"
-        ],
+        "legislation": "The Data Sharing (Government Sector) Act",
         "tags": [
           "Accountability",
           "Data",
           "Open Data",
           "Ethics"
+        ],
+        "owner": [
+          "Finance, Services and Innovation"
         ]
       }
     },
@@ -500,13 +517,15 @@
         "label": "Digital Accessibility Standards",
         "element type": "Policy",
         "owner": "Family and Community Services",
-        "tags": [
-          "Design",
-          "Standards"
-        ],
+        "description": "https://www.facs.nsw.gov.au/accessibility/digital-standard",
+        "year": "2018",
         "policy reach": [
           "Department only",
           "Family and Community Services"
+        ],
+        "tags": [
+          "Design",
+          "Standards"
         ]
       }
     },
@@ -518,15 +537,16 @@
         "element type": "Legislation",
         "policy reach": "Whole of Government",
         "year": "1998",
-        "owner": [
-          "Justice",
-          "Information and Privacy Commission"
-        ],
+        "legislation": "The Privacy and Personal Information Protection Act 1998 (PPIP Act)",
         "tags": [
           "Privacy",
           "Accountability",
           "Data",
           "Information"
+        ],
+        "owner": [
+          "Justice",
+          "Information and Privacy Commission"
         ]
       }
     },
@@ -622,11 +642,14 @@
         "label": "Capital Planning Policy",
         "element type": "Policy",
         "policy reach": "Whole of Government",
-        "tags": [
-          "Capital Planning"
-        ],
+        "description": "https://www.treasury.nsw.gov.au/information-public-entities/capital-planning",
         "owner": [
           "Treasury"
+        ],
+        "tags": [
+          "Capital Planning",
+          "ICT Investment",
+          "ICT"
         ]
       }
     },
@@ -669,14 +692,16 @@
         "element type": "Policy",
         "policy reach": "Whole of Government",
         "year": "2018",
-        "owner": [
-          "Finance, Services and Innovation",
-          "State Records Authority"
-        ],
+        "legislation": "State Records Act",
         "tags": [
           "Information",
           "Accountability",
-          "Standards"
+          "Standards",
+          "Data"
+        ],
+        "owner": [
+          "Finance, Services and Innovation",
+          "State Records Authority"
         ]
       }
     },
@@ -742,10 +767,12 @@
     {
       "_id": "elem-HBoLaTc3",
       "attributes": {
-        "label": "Digital Service Standards",
+        "label": "Digital Design System",
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "https://www.digital.nsw.gov.au/digital-design-system",
+        "year": "2018",
         "tags": [
           "Standards",
           "Design"
@@ -755,16 +782,18 @@
     {
       "_id": "elem-HS1sYy8z",
       "attributes": {
-        "label": "Corporate Plan",
-        "strategy": "Corporate Plan",
+        "label": "Corporate Plan 2017-2020",
+        "strategy": "Corporate Plan 2017-2020",
         "element type": "Strategy",
         "owner": "Justice",
-        "tags": [
-          "Strategy"
-        ],
+        "description": "https://www.justice.nsw.gov.au/Documents/department-of-justice-corporate-plan.pdf",
+        "year": "2017",
         "policy reach": [
           "Department only",
           "Justice"
+        ],
+        "tags": [
+          "Strategy"
         ]
       }
     },
@@ -795,16 +824,16 @@
     {
       "_id": "elem-JMCu24wq",
       "attributes": {
-        "label": "Domain registration and maintenance",
+        "label": "Domain Registration and Maintenance Policy",
         "element type": "Policy",
         "description": "https://communications.dpc.nsw.gov.au/digital/nsw-gov-au-domain-names/",
         "policy reach": "Whole of Government",
         "legislation": "NSW Government Advertising Act 2011",
-        "owner": [
-          "Premier and Cabinet"
-        ],
         "tags": [
           "Website"
+        ],
+        "owner": [
+          "Premier and Cabinet"
         ]
       }
     },
@@ -828,10 +857,12 @@
     {
       "_id": "elem-Ka1SW7br",
       "attributes": {
-        "label": "Foundation Spatial Data Framework",
+        "label": "NSW Foundation Spatial Data Framework",
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "http://spatialservices.finance.nsw.gov.au/__data/assets/pdf_file/0006/219282/NSW_Foundation_Spatial_Data_Framework_-_small.pdf",
+        "year": "2018",
         "tags": [
           "Data",
           "Open Data",
@@ -842,30 +873,31 @@
     {
       "_id": "elem-KxeSmlhY",
       "attributes": {
-        "label": "Website accessibility (WCAG)",
+        "label": "Web Content Accessibility Guidelines (WCAG)",
         "element type": "Policy",
         "description": "https://communications.dpc.nsw.gov.au/digital/website-accessibility-wcag/",
         "policy reach": "Whole of Government",
         "legislation": "NSW Government Advertising Act 2011",
         "year released": "",
+        "year": "2008",
+        "owner": [
+          "Premier and Cabinet"
+        ],
         "tags": [
           "Website",
           "Accessibility"
-        ],
-        "owner": [
-          "Premier and Cabinet"
         ]
       }
     },
     {
       "_id": "elem-LgcBcXrD",
       "attributes": {
-        "label": "Open Data",
+        "label": "Open Data Policy",
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
         "description": "https://www.digital.nsw.gov.au/policy/data-information/making-data-open/nsw-open-data-policy",
-        "legislation": "NSW Government Information (Public Access) Act",
+        "legislation": "The Government Information (Public Access) Act 2009 (NSW) (GIPA Act)",
         "year": "2016",
         "tags": [
           "Data",
@@ -908,16 +940,17 @@
         "description": "https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjMv5W8n7TSAhUEkpQKHfQBCJ0QFggbMAA&url=http%3A%2F%2Fwww.austlii.edu.au%2Fau%2Flegis%2Fnsw%2Fconsol_act%2Fgiaa2009368%2F&usg=AFQjCNHHguHhFik4v6oUh-tXozZs_2LxOA&sig2=UV8KqIgI0tuSkpJv2FvTQg",
         "policy reach": "Whole of Government",
         "year": "2009",
-        "owner": [
-          "Justice",
-          "Information and Privacy Commission"
-        ],
+        "legislation": "The Government Information (Public Access) Act 2009 (NSW) (GIPA Act)",
         "tags": [
           "Information",
           "Privacy",
           "Accountability",
           "Data",
           "Open Data"
+        ],
+        "owner": [
+          "Justice",
+          "Information and Privacy Commission"
         ]
       }
     },
@@ -944,6 +977,7 @@
         "strategy": "NSW Government Cyber Security Strategy",
         "element type": "Strategy",
         "owner": "Finance, Services and Innovation",
+        "year": "2018",
         "tags": [
           "Cyber"
         ]
@@ -957,26 +991,29 @@
         "element type": "Legislation",
         "policy reach": "Whole of Government",
         "year": "2010",
-        "owner": [
-          "Health"
-        ],
+        "legislation": "Public Health Act 2010 (NSW)",
         "tags": [
           "Accountability",
           "Information"
+        ],
+        "owner": [
+          "Health"
         ]
       }
     },
     {
       "_id": "elem-TW0layf0",
       "attributes": {
-        "label": "Data and Information Asset Management",
+        "label": "Data and Information Asset Management Policy",
         "element type": "Policy",
         "owner": "Transport for NSW",
-        "tags": [
-          "Data"
-        ],
+        "year": "2017",
+        "description": "https://www.transport.nsw.gov.au/system/files/media/documents/2017/data-and-information-asset-management-policy_0.pdf",
         "policy reach": [
           "Transport for NSW"
+        ],
+        "tags": [
+          "Data"
         ]
       }
     },
@@ -1000,11 +1037,13 @@
     {
       "_id": "elem-UDDhY1Y6",
       "attributes": {
-        "label": "Internet of Things",
+        "label": "Internet of Things Framework",
         "policy reach": "Whole of Government",
         "strategy": "State Infrastructure Strategy",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "In development",
+        "year": "2019",
         "tags": [
           "Emerging Technology",
           "Infrastructure",
@@ -1019,8 +1058,8 @@
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
-        "description": "https://www.digital.nsw.gov.au/policy/data-information/managing-data-information",
-        "year": "2013",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/IM%20Framework%20infographic_0.pdf",
+        "year": "2018",
         "tags": [
           "Data",
           "Open Data",
@@ -1062,17 +1101,17 @@
     {
       "_id": "elem-VkTT2tHW",
       "attributes": {
-        "label": "NSW Government Brand Guidelines (2017)",
+        "label": "NSW Government Brand Guidelines",
         "description": "https://communications.dpc.nsw.gov.au/assets/dpc-nsw-gov-au/files/Communications-and-Engagement/0c7b202631/NSW-Government-Brand-Guidelines.pdf",
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "year": "2017",
-        "owner": [
-          "Premier and Cabinet"
-        ],
         "tags": [
           "Branding",
           "Design"
+        ],
+        "owner": [
+          "Premier and Cabinet"
         ]
       }
     },
@@ -1084,27 +1123,32 @@
         "element type": "Strategy",
         "owner": "Education",
         "year": "2015",
-        "policy reach": [
-          "Department only",
-          "Education"
-        ],
+        "description": "https://education.nsw.gov.au/about-us/strategies-and-reports/media/documents/DEC_Information_Management_Strategy_2015-2017.pdf",
         "tags": [
           "Data",
           "Shared Data"
+        ],
+        "policy reach": [
+          "Department only",
+          "Education"
         ]
       }
     },
     {
       "_id": "elem-Wq9WGNzL",
       "attributes": {
-        "label": "Cyber Security",
+        "label": "Cyber Security Policy",
         "policy reach": "Whole of Government",
         "strategy": "NSW Government Cyber Security Strategy",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "https://www.digital.nsw.gov.au/policy/cyber-security/cyber-security-policy",
+        "year": "2019",
         "tags": [
           "Cyber",
-          "Data"
+          "Data",
+          "Security",
+          "ICT"
         ]
       }
     },
@@ -1175,7 +1219,7 @@
     {
       "_id": "elem-YrJ4yq5a",
       "attributes": {
-        "label": "Asset Management policy",
+        "label": "Asset Management Policy",
         "element type": "Policy",
         "policy reach": "Whole of Government",
         "strategy": "State Infrastructure Strategy",
@@ -1220,18 +1264,18 @@
       "_id": "elem-bKq6lV40",
       "attributes": {
         "label": "NSW Digital Information Security Policy",
-        "description": "https://www.finance.nsw.gov.au/ict/priorities/managing-information-better-services/information-security",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/Digital%20Information%20Security%20Policy%202015.pdf",
         "element type": "Policy",
         "policy reach": "Whole of Government",
         "year": "2015",
-        "owner": [
-          "Finance, Services and Innovation"
-        ],
         "tags": [
           "Data",
           "Information",
           "Accountability",
           "Cyber"
+        ],
+        "owner": [
+          "Finance, Services and Innovation"
         ]
       }
     },
@@ -1277,14 +1321,16 @@
         "description": "https://www.treasury.nsw.gov.au/budget-financial-management/reform/outcome-budgeting",
         "policy reach": "Whole of Government",
         "year": "2017",
+        "legislation": "Government Sector Finance Act 2018",
+        "owner": [
+          "Treasury"
+        ],
         "tags": [
           "ICT Investment",
           "Data",
           "Accountability",
-          "Investment"
-        ],
-        "owner": [
-          "Treasury"
+          "Investment",
+          "Outcomes"
         ]
       }
     },
@@ -1320,12 +1366,13 @@
         "element type": "Strategy",
         "owner": "Education",
         "year": "2016",
+        "description": "https://education.nsw.gov.au/about-us/strategies-and-reports/media/documents/Strategic_IT_Plan_2016_19.pdf",
+        "tags": [
+          "ICT Investment"
+        ],
         "policy reach": [
           "Department only",
           "Education"
-        ],
-        "tags": [
-          "ICT Investment"
         ]
       }
     },
@@ -1336,12 +1383,13 @@
         "strategy": "Future Transport Strategy",
         "element type": "Strategy",
         "owner": "Transport for NSW",
-        "tags": [
-          "Emerging Technology"
-        ],
+        "description": "https://future.transport.nsw.gov.au/plans/future-transport-strategy",
         "policy reach": [
           "Department only",
           "Transport for NSW"
+        ],
+        "tags": [
+          "Emerging Technology"
         ]
       }
     },
@@ -1374,18 +1422,18 @@
     {
       "_id": "elem-hqNC1ycp",
       "attributes": {
-        "label": "Standard Technology Product Aquisition",
+        "label": "Standard Technology Product Aquisition Policy",
         "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2010_047",
         "element type": "Policy",
         "owner": "Health",
         "legislation": "",
         "year": "2010",
+        "tags": [
+          "ICT Investment"
+        ],
         "policy reach": [
           "Department only",
           "Health"
-        ],
-        "tags": [
-          "ICT Investment"
         ]
       }
     },
@@ -1411,10 +1459,12 @@
     {
       "_id": "elem-l7mV9YLh",
       "attributes": {
-        "label": "Telecommunications Procurement",
+        "label": "Telecommunications Procurement Policy",
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "https://arp.nsw.gov.au/pbd-2014-03-telecommunications-procurement",
+        "year": "2014",
         "tags": [
           "Procurement"
         ]
@@ -1489,14 +1539,15 @@
     {
       "_id": "elem-q9gZFlZN",
       "attributes": {
-        "label": "Reference Architecture",
+        "label": "NSW Government Enterprise Architecture (NSW GEA)",
         "policy reach": "Whole of Government",
-        "strategy": "State of ICT and Digital Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "description": "https://www.digital.nsw.gov.au/policy/ict-assurance/enterprise-architecture",
         "tags": [
           "ICT Investment",
-          "Procurement"
+          "Procurement",
+          "Digital Government"
         ]
       }
     },
@@ -1507,6 +1558,8 @@
         "policy reach": "Whole of Government",
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
+        "year": "2019",
+        "description": "In development",
         "tags": [
           "Emerging Technology"
         ]
@@ -1532,7 +1585,7 @@
         "policy reach": "Department only",
         "element type": "Activity",
         "owner": "Finance, Services and Innovation",
-        "strategy": "Service NSW 2017/2018 Strategy",
+        "strategy": "Service NSW Strategy 2017-2018",
         "tags": [
           "Digital Government"
         ]
@@ -1541,12 +1594,16 @@
     {
       "_id": "elem-socu02fF",
       "attributes": {
-        "label": "IP Management Framework for the NSW Public Sector",
+        "label": "Intellectual Property Management Framework for the NSW Public Sector",
         "policy reach": "Whole of Government",
         "element type": "Policy",
-        "owner": "Finance, Services and Innovation",
+        "description": "https://arp.nsw.gov.au/sites/default/files/Intellectual_Property_05.pdf",
+        "year": "2005",
         "tags": [
           "Data"
+        ],
+        "owner": [
+          "Premier and Cabinet"
         ]
       }
     },
@@ -1557,6 +1614,8 @@
         "element type": "Policy",
         "owner": "Finance, Services and Innovation",
         "policy reach": "Whole of Government",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/NSW%20ICT%20Assurance%20Framework%20-%20Final.pdf",
+        "year": "2017",
         "tags": [
           "ICT Investment",
           "Procurement"
@@ -1694,6 +1753,12 @@
           "element": "elem-J7JNU39P"
         },
         {
+          "_id": "node-8qKJ7UgZ",
+          "position": null,
+          "pinned": false,
+          "element": "elem-7G1bO6L2"
+        },
+        {
           "_id": "node-91PZy50J",
           "position": null,
           "pinned": false,
@@ -1734,12 +1799,6 @@
           "position": null,
           "pinned": false,
           "element": "elem-qBoO8U5z"
-        },
-        {
-          "_id": "node-FVELwNQ9",
-          "position": null,
-          "pinned": false,
-          "element": "elem-a3rBG0Vc"
         },
         {
           "_id": "node-FlipWDKY",
@@ -1898,12 +1957,6 @@
           "element": "elem-eMIVdkPI"
         },
         {
-          "_id": "node-Y2jCqAlO",
-          "position": null,
-          "pinned": false,
-          "element": "elem-7G1bO6L2"
-        },
-        {
           "_id": "node-ZHjEaKpf",
           "position": null,
           "pinned": false,
@@ -2024,12 +2077,6 @@
           "element": "elem-TZq14guh"
         },
         {
-          "_id": "node-piA0lml0",
-          "position": null,
-          "pinned": false,
-          "element": "elem-qKtodQ0E"
-        },
-        {
           "_id": "node-pupGr1bN",
           "position": null,
           "pinned": false,
@@ -2060,12 +2107,6 @@
           "element": "elem-99YD05Dh"
         },
         {
-          "_id": "node-v82t2QjR",
-          "position": null,
-          "pinned": false,
-          "element": "elem-socu02fF"
-        },
-        {
           "_id": "node-w9xV6Eao",
           "position": null,
           "pinned": false,
@@ -2090,12 +2131,6 @@
           "element": "elem-YrJ4yq5a"
         },
         {
-          "_id": "node-zNFQ0N2K",
-          "position": null,
-          "pinned": false,
-          "element": "elem-xCMhFIwl"
-        },
-        {
           "_id": "node-zmkhRLJO",
           "position": null,
           "pinned": false,
@@ -2110,7 +2145,7 @@
     {
       "_id": "pers-3o5YFo8P",
       "name": "DPL",
-      "style": "@controls {\n  top {\n    cluster {\n      as: buttons;\n      multiple: true;\n    }\n\n    cluster {\n      by: \"Element type\", \"Owner\", \"Policy reach\", \"Strategy\", \"Tags\", \"Year\", \"Policy\", \"Legislation\";\n      as: buttons;\n      multiple: true;\n      default: \"\";\n    }\n  }\n\n  bottom-right {\n    filter {\n      target: element;\n      by: \"Element type\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Owner\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Policy reach\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Strategy\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Tags\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Year\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Policy\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Legislation\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n  }\n}\n\n@settings {\n  template: custom;\n  element-color: categorize(\"Element Type\", neon2);\n}\n\n"
+      "style": "@controls {\n  top {\n    cluster {\n      as: buttons;\n      multiple: true;\n    }\n\n    cluster {\n      by: \"Element type\", \"Owner\", \"Policy reach\", \"Strategy\", \"Tags\", \"Year\", \"Legislation\";\n      as: buttons;\n      multiple: true;\n      default: \"\";\n    }\n  }\n\n  bottom-right {\n    filter {\n      target: element;\n      by: \"Element type\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Owner\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Policy reach\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Strategy\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Tags\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Year\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Legislation\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n  }\n}\n\n@settings {\n  template: custom;\n  element-color: categorize(\"Element Type\", neon2);\n}\n"
     }
   ]
 }
