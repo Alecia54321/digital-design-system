@@ -1,0 +1,2116 @@
+{
+  "version": 1,
+  "name": "NSW Digital Policy Landscape",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-bNBDwb0w",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-BA2kO5Ol",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-aUlXQv7Y",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-qq04n61N",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Policy",
+        "Owner",
+        "Activity",
+        "Strategy",
+        "Policy Reach",
+        "Legislation"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-kow9usXH",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-DqxLmt3G",
+      "name": "Legislation",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-hHRm8cEP",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-eDA2J6ai",
+      "name": "Owner",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Finance, Services and Innovation",
+        "Industry",
+        "Health",
+        "Transport for NSW",
+        "Justice",
+        "Family and Community Services",
+        "Education",
+        "Treasury",
+        "Infrastructure NSW",
+        "State Records Authority",
+        "Public Service Commission",
+        "Premier and Cabinet",
+        "Information and Privacy Commission"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-mJxecUcr",
+      "name": "Policy",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-H3B1lRAo",
+      "name": "Policy Reach",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Department only",
+        "Education",
+        "Whole of Government",
+        "Health",
+        "Industry",
+        "Transport for NSW",
+        "Justice",
+        "Finance, Services and Innovation",
+        "Family and Community Services"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-xsOEv2We",
+      "name": "Strategy",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        null,
+        "NSW Digital Strategy",
+        "State of ICT and Digital Government",
+        "State Infrastructure Strategy",
+        "Future Transport Strategy",
+        "Corporate Plan",
+        "NSW Government Cyber Security Strategy",
+        "eHealth Strategy for NSW Health 2016-2019",
+        "Road Safety",
+        "Service NSW 2017/2018 Strategy",
+        "Strategic Information Technology Plan 2016-2019",
+        "Information Management Strategy 2015-2019"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-gAOA1U0o",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-H8O2H83l",
+      "name": "Year",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-0UkISFrr",
+      "attributes": {
+        "label": "10-year ICT and Digital Investment Plan",
+        "policy reach": "Whole of Government",
+        "strategy": "State of ICT and Digital Government",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "ICT Investment",
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-15yAhFg2",
+      "attributes": {
+        "label": "NSW Government Cloud Policy",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Cloud",
+          "Shared Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-1Ae8GFAF",
+      "attributes": {
+        "label": "Service NSW 2017/2018 Strategy",
+        "element type": "Strategy",
+        "owner": "Finance, Services and Innovation",
+        "year": "2017",
+        "policy reach": [
+          "Department only",
+          "Finance, Services and Innovation"
+        ],
+        "tags": [
+          "Strategy"
+        ]
+      }
+    },
+    {
+      "_id": "elem-1S1T9444",
+      "attributes": {
+        "label": "The Health Records and Information Privacy Act (HRIP Act)",
+        "description": "http://www.legislation.nsw.gov.au/#/view/act/2002/71",
+        "element type": "Legislation",
+        "policy reach": "Whole of Government",
+        "year": "2002",
+        "tags": [
+          "Accountability",
+          "Information",
+          "Data",
+          "Privacy"
+        ],
+        "owner": [
+          "Justice",
+          "Information and Privacy Commission"
+        ]
+      }
+    },
+    {
+      "_id": "elem-1js8FGAh",
+      "attributes": {
+        "label": "NSW Data & Information Custodianship Policy June 2013",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/NSW%20Data%20and%20Information%20Custodianship%20Policy%20v1-0.pdf",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "year": "2013",
+        "tags": [
+          "Data",
+          "Information",
+          "Accountability",
+          "Open Data",
+          "Shared Data"
+        ],
+        "owner": [
+          "Finance, Services and Innovation"
+        ]
+      }
+    },
+    {
+      "_id": "elem-1yw4zcmJ",
+      "attributes": {
+        "label": "Service NSW Website and App",
+        "policy reach": "Department only",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "strategy": "Service NSW 2017/2018 Strategy",
+        "year": "2017",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-2WWAWlXr",
+      "attributes": {}
+    },
+    {
+      "_id": "elem-2aAMIRTo",
+      "attributes": {
+        "label": "Information Security Policy",
+        "description": "https://www.industry.nsw.gov.au/__data/assets/pdf_file/0005/89258/IND-I-197-information-security-policy.pdf",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2016",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-30642lJT",
+      "attributes": {
+        "label": "Road Safety",
+        "strategy": "Road Safety",
+        "element type": "Strategy",
+        "owner": "Transport for NSW",
+        "tags": [
+          "Strategy"
+        ],
+        "policy reach": [
+          "Department only",
+          "Transport for NSW"
+        ]
+      }
+    },
+    {
+      "_id": "elem-3Agzybiw",
+      "attributes": {
+        "label": "The Human Services Outcomes Framework",
+        "description": "https://www.finance.nsw.gov.au/sites/default/files/guidelines_for_engagement_with_nsw_human_services_non-government_organisations.pdf",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "owner": [
+          "Finance, Services and Innovation"
+        ],
+        "tags": [
+          "Outcomes",
+          "Accountability"
+        ]
+      }
+    },
+    {
+      "_id": "elem-4UWGpu58",
+      "attributes": {
+        "label": "Intellectual Property Management Framework for the NSW Public Sector",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "description": "https://arp.nsw.gov.au/sites/default/files/Intellectual_Property_05.pdf",
+        "year": "2005",
+        "owner": [
+          "Premier and Cabinet"
+        ],
+        "tags": [
+          "Information",
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-6DEDNXlr",
+      "attributes": {
+        "label": "The Code of Ethics and Conduct for NSW government sector employees",
+        "description": "https://www.psc.nsw.gov.au/employmentportal/ethics-conduct/behaving-ethically/behaving-ethically-guide/section-2/the-code-of-ethics-and-conduct-for-nsw-government-sector-employees",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "owner": [
+          "Public Service Commission",
+          "Premier and Cabinet"
+        ],
+        "tags": [
+          "Ethics",
+          "Accountability"
+        ]
+      }
+    },
+    {
+      "_id": "elem-6UDL1yk1",
+      "attributes": {
+        "label": "Government Sector Employment Act 2013",
+        "element type": "Legislation",
+        "description": "https://www.legislation.nsw.gov.au/acts/2013-40.pdf",
+        "policy reach": "Whole of Government",
+        "year": "2013",
+        "owner": [
+          "Public Service Commission",
+          "Premier and Cabinet"
+        ],
+        "tags": [
+          "Accountability"
+        ]
+      }
+    },
+    {
+      "_id": "elem-71oaZIkE",
+      "attributes": {
+        "label": "Information Classification, Labelling and Handling Guidelines",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Data",
+          "Open Data",
+          "Shared Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-7G1bO6L2",
+      "attributes": {
+        "label": "Legislation as Code",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-7GKSSmxJ",
+      "attributes": {
+        "label": "Home and Community Care Minimum Data Set v2 - Collection and Reporting Requirements",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2008_050",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2008",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-8QRy7QqP",
+      "attributes": {
+        "label": "Department of Finance, Services and Innovation"
+      }
+    },
+    {
+      "_id": "elem-8vF7xRMD",
+      "attributes": {
+        "label": "Open Data (TfNSW)",
+        "element type": "Policy",
+        "owner": "Transport for NSW",
+        "tags": [
+          "Data",
+          "Open Data"
+        ],
+        "policy reach": [
+          "Department only",
+          "Transport for NSW"
+        ]
+      }
+    },
+    {
+      "_id": "elem-99YD05Dh",
+      "attributes": {
+        "label": "The Data Sharing (Government Sector) Act",
+        "description": "https://www.legislation.nsw.gov.au/#/view/act/2015/60/full",
+        "element type": "Legislation",
+        "policy reach": "Whole of Government",
+        "year": "2015",
+        "owner": [
+          "Finance, Services and Innovation"
+        ],
+        "tags": [
+          "Accountability",
+          "Data",
+          "Open Data",
+          "Ethics"
+        ]
+      }
+    },
+    {
+      "_id": "elem-9GZmhStI",
+      "attributes": {
+        "label": "Digital Accessibility Standards",
+        "element type": "Policy",
+        "owner": "Family and Community Services",
+        "tags": [
+          "Design",
+          "Standards"
+        ],
+        "policy reach": [
+          "Department only",
+          "Family and Community Services"
+        ]
+      }
+    },
+    {
+      "_id": "elem-9len8wFH",
+      "attributes": {
+        "label": "The Privacy and Personal Information Protection Act 1998 (PPIP Act)",
+        "description": "http://www.legislation.nsw.gov.au/#/view/act/1998/133",
+        "element type": "Legislation",
+        "policy reach": "Whole of Government",
+        "year": "1998",
+        "owner": [
+          "Justice",
+          "Information and Privacy Commission"
+        ],
+        "tags": [
+          "Privacy",
+          "Accountability",
+          "Data",
+          "Information"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ANgkmGXC",
+      "attributes": {
+        "label": "ICT Procurement and Transformation program",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-AqfIed1Y",
+      "attributes": {
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-B00m3dR5",
+      "attributes": {
+        "label": "Modernisation and Capability Assessment Across Whole of Government",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-B3nx3nXC",
+      "attributes": {
+        "label": "Treasury",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-B9xL2ShN",
+      "attributes": {
+        "label": "Information Sharing - NSW Health and DoCS - Opiod Treatment - Responsibility - Children Under 16",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2006_085",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2006",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-BjeVHtIY",
+      "attributes": {
+        "label": "Health",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-CE6lfohE",
+      "attributes": {
+        "label": "NSW Prenatal Data Collection (PDC) Reporting and Submission Requirements",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2015_025",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2005",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Ch8qGw3U",
+      "attributes": {
+        "label": "Capital Planning Policy",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "tags": [
+          "Capital Planning"
+        ],
+        "owner": [
+          "Treasury"
+        ]
+      }
+    },
+    {
+      "_id": "elem-CqONvnSk",
+      "attributes": {
+        "label": "Removal of Legislative Barriers to Digital Government Where Relevant",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-DaU8HBdH",
+      "attributes": {
+        "label": "Circular 2012-08 NSW Government Website Management - Website consolidation",
+        "description": "https://communications.dpc.nsw.gov.au/digital/website-guidelines/",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "year": "2012",
+        "owner": [
+          "Premier and Cabinet"
+        ],
+        "tags": [
+          "Website",
+          "Information"
+        ]
+      }
+    },
+    {
+      "_id": "elem-DhZ3Ip0B",
+      "attributes": {
+        "label": "Standard on Records Management",
+        "description": "https://www.records.nsw.gov.au/sites/default/files/Recordkeeping/Implementation%20Guide%20June%202018.pdf",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "year": "2018",
+        "owner": [
+          "Finance, Services and Innovation",
+          "State Records Authority"
+        ],
+        "tags": [
+          "Information",
+          "Accountability",
+          "Standards"
+        ]
+      }
+    },
+    {
+      "_id": "elem-E4q5FKoi",
+      "attributes": {
+        "label": "eHealth Strategy for NSW Health 2016-2019",
+        "description": "https://www.health.nsw.gov.au/ehealth/documents/ehealth-strategy-for-nsw-health-2016-2026.pdf",
+        "strategy": "eHealth Strategy for NSW Health 2016-2019",
+        "element type": "Strategy",
+        "owner": "Health",
+        "year": "2016",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Strategy"
+        ]
+      }
+    },
+    {
+      "_id": "elem-G4lOwEsB",
+      "attributes": {
+        "label": "Premier and Cabinet",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-GjeE7tLu",
+      "attributes": {
+        "label": "Disclosure of Unit Record for Research or Management of Health Services",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2015_037",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2015",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-GtkN063C",
+      "attributes": {
+        "label": "Data Dictionary and Collection Requirements for the NSW MDS for Drug and Alcohol Treatment Services",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2015_014",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2015",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-HBoLaTc3",
+      "attributes": {
+        "label": "Digital Service Standards",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Standards",
+          "Design"
+        ]
+      }
+    },
+    {
+      "_id": "elem-HS1sYy8z",
+      "attributes": {
+        "label": "Corporate Plan",
+        "strategy": "Corporate Plan",
+        "element type": "Strategy",
+        "owner": "Justice",
+        "tags": [
+          "Strategy"
+        ],
+        "policy reach": [
+          "Department only",
+          "Justice"
+        ]
+      }
+    },
+    {
+      "_id": "elem-HnDDZlAs",
+      "attributes": {
+        "label": "Industry",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-J7JNU39P",
+      "attributes": {
+        "label": "NSW Health Data Quality Assurance Framework for Activity Based Management",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2016_030",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2016",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-JMCu24wq",
+      "attributes": {
+        "label": "Domain registration and maintenance",
+        "element type": "Policy",
+        "description": "https://communications.dpc.nsw.gov.au/digital/nsw-gov-au-domain-names/",
+        "policy reach": "Whole of Government",
+        "legislation": "NSW Government Advertising Act 2011",
+        "owner": [
+          "Premier and Cabinet"
+        ],
+        "tags": [
+          "Website"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Jrhvtpdn",
+      "attributes": {
+        "label": "Domain Names for Web-based Solutions",
+        "description": "https://www.industry.nsw.gov.au/__data/assets/pdf_file/0016/51280/Domain-names-for-web-based-solutions.pdf",
+        "element type": "Policy",
+        "owner": "Industry",
+        "year": "2012",
+        "policy reach": [
+          "Department only",
+          "Industry"
+        ],
+        "tags": [
+          "Standards"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Ka1SW7br",
+      "attributes": {
+        "label": "Foundation Spatial Data Framework",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Data",
+          "Open Data",
+          "Shared Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-KxeSmlhY",
+      "attributes": {
+        "label": "Website accessibility (WCAG)",
+        "element type": "Policy",
+        "description": "https://communications.dpc.nsw.gov.au/digital/website-accessibility-wcag/",
+        "policy reach": "Whole of Government",
+        "legislation": "NSW Government Advertising Act 2011",
+        "year released": "",
+        "tags": [
+          "Website",
+          "Accessibility"
+        ],
+        "owner": [
+          "Premier and Cabinet"
+        ]
+      }
+    },
+    {
+      "_id": "elem-LgcBcXrD",
+      "attributes": {
+        "label": "Open Data",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "description": "https://www.digital.nsw.gov.au/policy/data-information/making-data-open/nsw-open-data-policy",
+        "legislation": "NSW Government Information (Public Access) Act",
+        "year": "2016",
+        "tags": [
+          "Data",
+          "Open Data",
+          "Ethics"
+        ]
+      }
+    },
+    {
+      "_id": "elem-MYEZv2vP",
+      "attributes": {
+        "policy reach": "Whole of Government",
+        "strategy": "State of ICT and Digital Government",
+        "element type": "Strategy",
+        "owner": "Finance, Services and Innovation",
+        "year": "2018",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-N2GD5D9m",
+      "attributes": {
+        "label": "Privacy Amendment (Notifiable Data Breaches) Act 2017",
+        "element type": "Legislation",
+        "tags": [
+          "Data",
+          "Privacy",
+          "Information",
+          "Security"
+        ]
+      }
+    },
+    {
+      "_id": "elem-PITfH90Y",
+      "attributes": {
+        "label": "The Government Information (Public Access) Act 2009 (NSW) (GIPA Act)",
+        "element type": "Legislation",
+        "description": "https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjMv5W8n7TSAhUEkpQKHfQBCJ0QFggbMAA&url=http%3A%2F%2Fwww.austlii.edu.au%2Fau%2Flegis%2Fnsw%2Fconsol_act%2Fgiaa2009368%2F&usg=AFQjCNHHguHhFik4v6oUh-tXozZs_2LxOA&sig2=UV8KqIgI0tuSkpJv2FvTQg",
+        "policy reach": "Whole of Government",
+        "year": "2009",
+        "owner": [
+          "Justice",
+          "Information and Privacy Commission"
+        ],
+        "tags": [
+          "Information",
+          "Privacy",
+          "Accountability",
+          "Data",
+          "Open Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-R1X1hZGy",
+      "attributes": {
+        "label": "ICT Funding Reform",
+        "policy reach": "Whole of Government",
+        "strategy": "State of ICT and Digital Government",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "ICT Investment",
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-RFm8HLip",
+      "attributes": {
+        "label": "NSW Government Cyber Security Strategy",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/NSW%20Cyber%20Security%20Strategy%202018.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Government Cyber Security Strategy",
+        "element type": "Strategy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Cyber"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Rs5mLNLB",
+      "attributes": {
+        "label": "Public Health Act 2010 (NSW)",
+        "description": "https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwia1eL2uvXSAhUEHGMKHVXYA5AQFggiMAE&url=http%3A%2F%2Fwww.legislation.nsw.gov.au%2Finforce%2Fe20f1d11-6a0d-ec9a-fe79-d31ae57c52c3%2F2010-127.pdf&usg=AFQjCNFQHR06D6_4ZIUvStvVfBTdVEvowA&sig2=bWbNRf_Rx9S_9BuOjLtndA",
+        "element type": "Legislation",
+        "policy reach": "Whole of Government",
+        "year": "2010",
+        "owner": [
+          "Health"
+        ],
+        "tags": [
+          "Accountability",
+          "Information"
+        ]
+      }
+    },
+    {
+      "_id": "elem-TW0layf0",
+      "attributes": {
+        "label": "Data and Information Asset Management",
+        "element type": "Policy",
+        "owner": "Transport for NSW",
+        "tags": [
+          "Data"
+        ],
+        "policy reach": [
+          "Transport for NSW"
+        ]
+      }
+    },
+    {
+      "_id": "elem-TZq14guh",
+      "attributes": {
+        "label": "Emergency Department Data Dictionary",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2009_071",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2009",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-UDDhY1Y6",
+      "attributes": {
+        "label": "Internet of Things",
+        "policy reach": "Whole of Government",
+        "strategy": "State Infrastructure Strategy",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Emerging Technology",
+          "Infrastructure",
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-UOWatFZI",
+      "attributes": {
+        "label": "Information Management Framework",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "description": "https://www.digital.nsw.gov.au/policy/data-information/managing-data-information",
+        "year": "2013",
+        "tags": [
+          "Data",
+          "Open Data",
+          "Shared Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-VKoOfw0O",
+      "attributes": {
+        "label": "Information Management Framework (IMF) - 2013 - Common Approach",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/IM%20common%20approach%20v1.pdf",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "year": "2013",
+        "owner": [
+          "Finance, Services and Innovation"
+        ],
+        "tags": [
+          "Information",
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-VQSXTO7R",
+      "attributes": {
+        "label": "Test Use of Bots to Remove Day-to-day Pain Points",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-VkTT2tHW",
+      "attributes": {
+        "label": "NSW Government Brand Guidelines (2017)",
+        "description": "https://communications.dpc.nsw.gov.au/assets/dpc-nsw-gov-au/files/Communications-and-Engagement/0c7b202631/NSW-Government-Brand-Guidelines.pdf",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "year": "2017",
+        "owner": [
+          "Premier and Cabinet"
+        ],
+        "tags": [
+          "Branding",
+          "Design"
+        ]
+      }
+    },
+    {
+      "_id": "elem-WFAQeTmq",
+      "attributes": {
+        "label": "Information Management Strategy 2015-2019",
+        "strategy": "Information Management Strategy 2015-2019",
+        "element type": "Strategy",
+        "owner": "Education",
+        "year": "2015",
+        "policy reach": [
+          "Department only",
+          "Education"
+        ],
+        "tags": [
+          "Data",
+          "Shared Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Wq9WGNzL",
+      "attributes": {
+        "label": "Cyber Security",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Government Cyber Security Strategy",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Cyber",
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-X9LIqsC2",
+      "attributes": {
+        "label": "Digital Identity for Business",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "year": "2018",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-XEkk9MDb",
+      "attributes": {
+        "label": ""
+      }
+    },
+    {
+      "_id": "elem-YKvQ095f",
+      "attributes": {
+        "label": "Planning and Environment",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-YbQSgPpt",
+      "attributes": {
+        "label": "NSW Emergency Department Data Collection (EDDC) Reporting and Submission Requirements",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2018_047",
+        "element type": "Policy",
+        "owner": "Health",
+        "year": "2018",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-YgcBtan2",
+      "attributes": {
+        "label": "Electronic Information Security Policy - NSW Health",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2013_033",
+        "element type": "Policy",
+        "owner": "Health",
+        "legislation": "",
+        "year": "2013",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data",
+          "Cyber"
+        ]
+      }
+    },
+    {
+      "_id": "elem-YrJ4yq5a",
+      "attributes": {
+        "label": "Asset Management policy",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "strategy": "State Infrastructure Strategy",
+        "description": "http://treasury.nsw.gov.au/finance-resource/asset-management-policies",
+        "tags": [
+          "Asset Management"
+        ],
+        "owner": [
+          "Treasury",
+          "Infrastructure NSW"
+        ]
+      }
+    },
+    {
+      "_id": "elem-a3rBG0Vc",
+      "attributes": {
+        "label": "Asset Management Policy for the NSW Public Sector",
+        "element type": "Policy",
+        "owner": "Treasury",
+        "policy reach": "Whole of Government",
+        "tags": [
+          "ICT Investment",
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-b7vRJtDj",
+      "attributes": {
+        "label": "Digital Transformation of Whole of Government Signatures",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-bKq6lV40",
+      "attributes": {
+        "label": "NSW Digital Information Security Policy",
+        "description": "https://www.finance.nsw.gov.au/ict/priorities/managing-information-better-services/information-security",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "year": "2015",
+        "owner": [
+          "Finance, Services and Innovation"
+        ],
+        "tags": [
+          "Data",
+          "Information",
+          "Accountability",
+          "Cyber"
+        ]
+      }
+    },
+    {
+      "_id": "elem-cGeOUzQo",
+      "attributes": {
+        "label": "Education",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-e7o23Dbj",
+      "attributes": {
+        "label": "Transport for NSW",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-eMIVdkPI",
+      "attributes": {
+        "label": "State Records Act",
+        "description": "https://www.legislation.nsw.gov.au/#/view/act/1998/17",
+        "element type": "Legislation",
+        "policy reach": "Whole of Government",
+        "year": "1998",
+        "tags": [
+          "Accountability",
+          "Information",
+          "Data",
+          "Privacy"
+        ],
+        "owner": [
+          "Finance, Services and Innovation",
+          "State Records Authority"
+        ]
+      }
+    },
+    {
+      "_id": "elem-eo4sduOB",
+      "attributes": {
+        "label": "Outcome Budgeting",
+        "element type": "Policy",
+        "description": "https://www.treasury.nsw.gov.au/budget-financial-management/reform/outcome-budgeting",
+        "policy reach": "Whole of Government",
+        "year": "2017",
+        "tags": [
+          "ICT Investment",
+          "Data",
+          "Accountability",
+          "Investment"
+        ],
+        "owner": [
+          "Treasury"
+        ]
+      }
+    },
+    {
+      "_id": "elem-fpzGtoKO",
+      "attributes": {
+        "label": "Department Only",
+        "policy reach": "Department only",
+        "element type": "Policy Reach"
+      }
+    },
+    {
+      "_id": "elem-g9o01nqT",
+      "attributes": {
+        "label": "State Infrastructure Strategy",
+        "policy reach": "Whole of Government",
+        "strategy": "State Infrastructure Strategy",
+        "element type": "Strategy",
+        "owner": "Infrastructure NSW",
+        "year established": "",
+        "description": "https://www.nsw.gov.au/improving-nsw/projects-and-initiatives/nsw-state-infrastructure-strategy/",
+        "year": "2018",
+        "tags": [
+          "Infrastructure"
+        ]
+      }
+    },
+    {
+      "_id": "elem-gRF5EC4d",
+      "attributes": {
+        "label": "Strategic Information Technology Plan 2016-2019",
+        "strategy": "Strategic Information Technology Plan 2016-2019",
+        "element type": "Strategy",
+        "owner": "Education",
+        "year": "2016",
+        "policy reach": [
+          "Department only",
+          "Education"
+        ],
+        "tags": [
+          "ICT Investment"
+        ]
+      }
+    },
+    {
+      "_id": "elem-gX3Cgmwf",
+      "attributes": {
+        "label": "Future Transport Strategy",
+        "strategy": "Future Transport Strategy",
+        "element type": "Strategy",
+        "owner": "Transport for NSW",
+        "tags": [
+          "Emerging Technology"
+        ],
+        "policy reach": [
+          "Department only",
+          "Transport for NSW"
+        ]
+      }
+    },
+    {
+      "_id": "elem-gccZ5ETZ",
+      "attributes": {
+        "label": "Data Collections - Process for Approval of New or Modified",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2005_155",
+        "element type": "Policy",
+        "owner": "Health",
+        "legislation": "",
+        "year": "2005",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-hKijMNgX",
+      "attributes": {
+        "label": "Whole of Government",
+        "policy reach": "Whole of Government",
+        "element type": "Policy Reach"
+      }
+    },
+    {
+      "_id": "elem-hqNC1ycp",
+      "attributes": {
+        "label": "Standard Technology Product Aquisition",
+        "description": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2010_047",
+        "element type": "Policy",
+        "owner": "Health",
+        "legislation": "",
+        "year": "2010",
+        "policy reach": [
+          "Department only",
+          "Health"
+        ],
+        "tags": [
+          "ICT Investment"
+        ]
+      }
+    },
+    {
+      "_id": "elem-iVgIFqnj",
+      "attributes": {}
+    },
+    {
+      "_id": "elem-jnJnKIM4",
+      "attributes": {
+        "label": "NSW Digital Strategy",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Strategy",
+        "owner": "Finance, Services and Innovation",
+        "year": "2018",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-l7mV9YLh",
+      "attributes": {
+        "label": "Telecommunications Procurement",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-lCbuLrCv",
+      "attributes": {
+        "label": "NSW Government Information Classification, Labelling and Handling Guidelines",
+        "description": "https://arp.nsw.gov.au/sites/default/files/NSW%20Government%20Information%20Classification%20Labelling%20and%20Handling%20Guidelines%20V.2.2%28DFSI%29.pdf",
+        "element type": "Policy",
+        "policy reach": "Whole of Government",
+        "year": "2015",
+        "tags": [
+          "Information",
+          "Data",
+          "Privacy",
+          "Security"
+        ],
+        "owner": [
+          "Finance, Services and Innovation"
+        ]
+      }
+    },
+    {
+      "_id": "elem-m9CSuflq",
+      "attributes": {
+        "label": "Family and Community Services",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-mBWhcZ7G",
+      "attributes": {
+        "label": "Finance, Services and Innovation",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-oFFUy27Y",
+      "attributes": {
+        "label": "Standard for Data Quality Reporting",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/NSW%20Standard%20for%20Data%20Quality%20Reporting%20v1.2%20FINAL.pdf",
+        "year": "2015",
+        "tags": [
+          "Data",
+          "Standards",
+          "Open Data",
+          "Shared Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-q93GuX3R",
+      "attributes": {
+        "label": "Identity Management framework",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Digital Government",
+          "Data",
+          "Privacy"
+        ]
+      }
+    },
+    {
+      "_id": "elem-q9gZFlZN",
+      "attributes": {
+        "label": "Reference Architecture",
+        "policy reach": "Whole of Government",
+        "strategy": "State of ICT and Digital Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "ICT Investment",
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-qBoO8U5z",
+      "attributes": {
+        "label": "Emerging Technology Framework",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Emerging Technology"
+        ]
+      }
+    },
+    {
+      "_id": "elem-qKtodQ0E",
+      "attributes": {
+        "year": "2016"
+      }
+    },
+    {
+      "_id": "elem-raFLLmep",
+      "attributes": {
+        "label": "Justice",
+        "element type": "Owner"
+      }
+    },
+    {
+      "_id": "elem-sJ4ahs0g",
+      "attributes": {
+        "label": "Transaction Digitisation",
+        "policy reach": "Department only",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "strategy": "Service NSW 2017/2018 Strategy",
+        "tags": [
+          "Digital Government"
+        ]
+      }
+    },
+    {
+      "_id": "elem-socu02fF",
+      "attributes": {
+        "label": "IP Management Framework for the NSW Public Sector",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-t7PuCGIL",
+      "attributes": {
+        "label": "ICT Assurance Framework",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "policy reach": "Whole of Government",
+        "tags": [
+          "ICT Investment",
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-vAsX5W15",
+      "attributes": {
+        "label": "dMarketplace",
+        "policy reach": "Whole of Government",
+        "strategy": "State of ICT and Digital Government",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "policy": "Open Data",
+        "tags": [
+          "Data"
+        ]
+      }
+    },
+    {
+      "_id": "elem-xCMhFIwl",
+      "attributes": {
+        "label": "ICT Procurement",
+        "policy reach": "Whole of Government",
+        "element type": "Policy",
+        "owner": "Finance, Services and Innovation",
+        "tags": [
+          "Procurement"
+        ]
+      }
+    },
+    {
+      "_id": "elem-xhoC22TX",
+      "attributes": {
+        "label": "Test AI",
+        "description": "https://www.digital.nsw.gov.au/sites/default/files/DigitalStrategy.pdf",
+        "policy reach": "Whole of Government",
+        "strategy": "NSW Digital Strategy",
+        "element type": "Activity",
+        "owner": "Finance, Services and Innovation",
+        "year": "2018",
+        "tags": [
+          "Emerging Technology",
+          "Data",
+          "Privacy"
+        ]
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-YM4zdmHP",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-a3rBG0Vc",
+      "to": "elem-hKijMNgX"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-bNBDwb0w",
+      "name": "DPL",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-3o5YFo8P",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected",
+      "elements": [
+        {
+          "_id": "node-1TjtE76Q",
+          "position": null,
+          "pinned": false,
+          "element": "elem-7GKSSmxJ"
+        },
+        {
+          "_id": "node-29f5wooW",
+          "position": null,
+          "pinned": false,
+          "element": "elem-Jrhvtpdn"
+        },
+        {
+          "_id": "node-2QllPKXU",
+          "position": null,
+          "pinned": false,
+          "element": "elem-YbQSgPpt"
+        },
+        {
+          "_id": "node-58Iwilsv",
+          "position": null,
+          "pinned": false,
+          "element": "elem-6UDL1yk1"
+        },
+        {
+          "_id": "node-5lZ9qouf",
+          "position": null,
+          "pinned": false,
+          "element": "elem-DaU8HBdH"
+        },
+        {
+          "_id": "node-6gMZ37vX",
+          "position": null,
+          "pinned": false,
+          "element": "elem-RFm8HLip"
+        },
+        {
+          "_id": "node-6zkyR3EX",
+          "position": null,
+          "pinned": false,
+          "element": "elem-VkTT2tHW"
+        },
+        {
+          "_id": "node-7P2JggCh",
+          "position": null,
+          "pinned": false,
+          "element": "elem-Rs5mLNLB"
+        },
+        {
+          "_id": "node-8Zj4FUUW",
+          "position": null,
+          "pinned": false,
+          "element": "elem-cGeOUzQo"
+        },
+        {
+          "_id": "node-8d2zl0m7",
+          "position": null,
+          "pinned": false,
+          "element": "elem-J7JNU39P"
+        },
+        {
+          "_id": "node-91PZy50J",
+          "position": null,
+          "pinned": false,
+          "element": "elem-m9CSuflq"
+        },
+        {
+          "_id": "node-9ekwLJyS",
+          "position": null,
+          "pinned": false,
+          "element": "elem-t7PuCGIL"
+        },
+        {
+          "_id": "node-9pjFHpE0",
+          "position": null,
+          "pinned": false,
+          "element": "elem-JMCu24wq"
+        },
+        {
+          "_id": "node-CBWw9NPI",
+          "position": null,
+          "pinned": false,
+          "element": "elem-TW0layf0"
+        },
+        {
+          "_id": "node-CybZFf1s",
+          "position": null,
+          "pinned": false,
+          "element": "elem-hqNC1ycp"
+        },
+        {
+          "_id": "node-DIge4xvk",
+          "position": null,
+          "pinned": false,
+          "element": "elem-eo4sduOB"
+        },
+        {
+          "_id": "node-EtRCCaOy",
+          "position": null,
+          "pinned": false,
+          "element": "elem-qBoO8U5z"
+        },
+        {
+          "_id": "node-FVELwNQ9",
+          "position": null,
+          "pinned": false,
+          "element": "elem-a3rBG0Vc"
+        },
+        {
+          "_id": "node-FlipWDKY",
+          "position": null,
+          "pinned": false,
+          "element": "elem-2aAMIRTo"
+        },
+        {
+          "_id": "node-Fp1ITcvz",
+          "position": null,
+          "pinned": false,
+          "element": "elem-GtkN063C"
+        },
+        {
+          "_id": "node-FywrGbaB",
+          "position": null,
+          "pinned": false,
+          "element": "elem-Ch8qGw3U"
+        },
+        {
+          "_id": "node-G51GEwNb",
+          "position": null,
+          "pinned": false,
+          "element": "elem-UDDhY1Y6"
+        },
+        {
+          "_id": "node-GVtoYlZH",
+          "position": null,
+          "pinned": false,
+          "element": "elem-DhZ3Ip0B"
+        },
+        {
+          "_id": "node-J6IOuTVR",
+          "position": null,
+          "pinned": false,
+          "element": "elem-HS1sYy8z"
+        },
+        {
+          "_id": "node-Jhdyn76p",
+          "position": null,
+          "pinned": false,
+          "element": "elem-HnDDZlAs"
+        },
+        {
+          "_id": "node-K0vJmDfG",
+          "position": null,
+          "pinned": false,
+          "element": "elem-jnJnKIM4"
+        },
+        {
+          "_id": "node-MG0RCnsb",
+          "position": null,
+          "pinned": false,
+          "element": "elem-e7o23Dbj"
+        },
+        {
+          "_id": "node-O2hWkdoV",
+          "position": null,
+          "pinned": false,
+          "element": "elem-30642lJT"
+        },
+        {
+          "_id": "node-Q08J7SFt",
+          "position": null,
+          "pinned": false,
+          "element": "elem-3Agzybiw"
+        },
+        {
+          "_id": "node-Q4qaafZg",
+          "position": null,
+          "pinned": false,
+          "element": "elem-6DEDNXlr"
+        },
+        {
+          "_id": "node-RGF1qZrJ",
+          "position": null,
+          "pinned": false,
+          "element": "elem-71oaZIkE"
+        },
+        {
+          "_id": "node-RbBbXOcU",
+          "position": null,
+          "pinned": false,
+          "element": "elem-1js8FGAh"
+        },
+        {
+          "_id": "node-SEBTowma",
+          "position": null,
+          "pinned": false,
+          "element": "elem-1Ae8GFAF"
+        },
+        {
+          "_id": "node-SOiQkjik",
+          "position": null,
+          "pinned": false,
+          "element": "elem-BjeVHtIY"
+        },
+        {
+          "_id": "node-TKnhPG2P",
+          "position": null,
+          "pinned": false,
+          "element": "elem-mBWhcZ7G"
+        },
+        {
+          "_id": "node-TSUFafM5",
+          "position": null,
+          "pinned": false,
+          "element": "elem-15yAhFg2"
+        },
+        {
+          "_id": "node-Teu8HcQ3",
+          "position": null,
+          "pinned": false,
+          "element": "elem-g9o01nqT"
+        },
+        {
+          "_id": "node-TyanPsTt",
+          "position": null,
+          "pinned": false,
+          "element": "elem-LgcBcXrD"
+        },
+        {
+          "_id": "node-V1KUFeXD",
+          "position": null,
+          "pinned": false,
+          "element": "elem-Wq9WGNzL"
+        },
+        {
+          "_id": "node-V61RC9D6",
+          "position": null,
+          "pinned": false,
+          "element": "elem-8vF7xRMD"
+        },
+        {
+          "_id": "node-VUd3NUlA",
+          "position": null,
+          "pinned": false,
+          "element": "elem-oFFUy27Y"
+        },
+        {
+          "_id": "node-WPb1oDSv",
+          "position": null,
+          "pinned": false,
+          "element": "elem-YgcBtan2"
+        },
+        {
+          "_id": "node-X0SjgngZ",
+          "position": null,
+          "pinned": false,
+          "element": "elem-4UWGpu58"
+        },
+        {
+          "_id": "node-XZrVVSTk",
+          "position": null,
+          "pinned": false,
+          "element": "elem-eMIVdkPI"
+        },
+        {
+          "_id": "node-Y2jCqAlO",
+          "position": null,
+          "pinned": false,
+          "element": "elem-7G1bO6L2"
+        },
+        {
+          "_id": "node-ZHjEaKpf",
+          "position": null,
+          "pinned": false,
+          "element": "elem-YKvQ095f"
+        },
+        {
+          "_id": "node-ZtTk9uVv",
+          "position": null,
+          "pinned": false,
+          "element": "elem-9len8wFH"
+        },
+        {
+          "_id": "node-ZyeA87ol",
+          "position": null,
+          "pinned": false,
+          "element": "elem-E4q5FKoi"
+        },
+        {
+          "_id": "node-a6WvhaQK",
+          "position": null,
+          "pinned": false,
+          "element": "elem-PITfH90Y"
+        },
+        {
+          "_id": "node-bU1MHSAl",
+          "position": null,
+          "pinned": false,
+          "element": "elem-KxeSmlhY"
+        },
+        {
+          "_id": "node-baZ58FMI",
+          "position": null,
+          "pinned": false,
+          "element": "elem-gccZ5ETZ"
+        },
+        {
+          "_id": "node-cjxBf6OB",
+          "position": null,
+          "pinned": false,
+          "element": "elem-UOWatFZI"
+        },
+        {
+          "_id": "node-hytBeTLu",
+          "position": null,
+          "pinned": false,
+          "element": "elem-9GZmhStI"
+        },
+        {
+          "_id": "node-i22Op8Uh",
+          "position": null,
+          "pinned": false,
+          "element": "elem-CE6lfohE"
+        },
+        {
+          "_id": "node-iICXbK83",
+          "position": null,
+          "pinned": false,
+          "element": "elem-1S1T9444"
+        },
+        {
+          "_id": "node-icvboRPI",
+          "position": null,
+          "pinned": false,
+          "element": "elem-HBoLaTc3"
+        },
+        {
+          "_id": "node-kDKKiuH7",
+          "position": null,
+          "pinned": false,
+          "element": "elem-Ka1SW7br"
+        },
+        {
+          "_id": "node-lSxQRWwy",
+          "position": null,
+          "pinned": false,
+          "element": "elem-GjeE7tLu"
+        },
+        {
+          "_id": "node-lWms5shu",
+          "position": null,
+          "pinned": false,
+          "element": "elem-G4lOwEsB"
+        },
+        {
+          "_id": "node-lcRPCZck",
+          "position": null,
+          "pinned": false,
+          "element": "elem-hKijMNgX"
+        },
+        {
+          "_id": "node-m8e4ciZ3",
+          "position": null,
+          "pinned": false,
+          "element": "elem-bKq6lV40"
+        },
+        {
+          "_id": "node-o19ptZH2",
+          "position": null,
+          "pinned": false,
+          "element": "elem-raFLLmep"
+        },
+        {
+          "_id": "node-o6KLVLNF",
+          "position": null,
+          "pinned": false,
+          "element": "elem-gRF5EC4d"
+        },
+        {
+          "_id": "node-oWD4y133",
+          "position": null,
+          "pinned": false,
+          "element": "elem-B3nx3nXC"
+        },
+        {
+          "_id": "node-obUmaU0b",
+          "position": null,
+          "pinned": false,
+          "element": "elem-TZq14guh"
+        },
+        {
+          "_id": "node-piA0lml0",
+          "position": null,
+          "pinned": false,
+          "element": "elem-qKtodQ0E"
+        },
+        {
+          "_id": "node-pupGr1bN",
+          "position": null,
+          "pinned": false,
+          "element": "elem-fpzGtoKO"
+        },
+        {
+          "_id": "node-puyuF1eV",
+          "position": null,
+          "pinned": false,
+          "element": "elem-l7mV9YLh"
+        },
+        {
+          "_id": "node-qHCiIXkR",
+          "position": null,
+          "pinned": false,
+          "element": "elem-lCbuLrCv"
+        },
+        {
+          "_id": "node-rd5mBUdA",
+          "position": null,
+          "pinned": false,
+          "element": "elem-VKoOfw0O"
+        },
+        {
+          "_id": "node-uzu2OdO1",
+          "position": null,
+          "pinned": false,
+          "element": "elem-99YD05Dh"
+        },
+        {
+          "_id": "node-v82t2QjR",
+          "position": null,
+          "pinned": false,
+          "element": "elem-socu02fF"
+        },
+        {
+          "_id": "node-w9xV6Eao",
+          "position": null,
+          "pinned": false,
+          "element": "elem-q9gZFlZN"
+        },
+        {
+          "_id": "node-xFIXCQCi",
+          "position": null,
+          "pinned": false,
+          "element": "elem-B9xL2ShN"
+        },
+        {
+          "_id": "node-xiUXf452",
+          "position": null,
+          "pinned": false,
+          "element": "elem-WFAQeTmq"
+        },
+        {
+          "_id": "node-zM0TbLGL",
+          "position": null,
+          "pinned": false,
+          "element": "elem-YrJ4yq5a"
+        },
+        {
+          "_id": "node-zNFQ0N2K",
+          "position": null,
+          "pinned": false,
+          "element": "elem-xCMhFIwl"
+        },
+        {
+          "_id": "node-zmkhRLJO",
+          "position": null,
+          "pinned": false,
+          "element": "elem-gX3Cgmwf"
+        }
+      ],
+      "connections": [],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-3o5YFo8P",
+      "name": "DPL",
+      "style": "@controls {\n  top {\n    cluster {\n      as: buttons;\n      multiple: true;\n    }\n\n    cluster {\n      by: \"Element type\", \"Owner\", \"Policy reach\", \"Strategy\", \"Tags\", \"Year\", \"Policy\", \"Legislation\";\n      as: buttons;\n      multiple: true;\n      default: \"\";\n    }\n  }\n\n  bottom-right {\n    filter {\n      target: element;\n      by: \"Element type\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Owner\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Policy reach\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Strategy\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Tags\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Year\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Policy\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"Legislation\";\n      as: dropdown;\n      multiple: true;\n      default: show-all;\n    }\n  }\n}\n\n@settings {\n  template: custom;\n  element-color: categorize(\"Element Type\", neon2);\n}\n\n"
+    }
+  ]
+}
